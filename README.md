@@ -1,5 +1,8 @@
 # DocuSage
 A RAG Agant. DocuSage is a project that combines a web interface (built with Hono) and a Telegram bot to provide access to a knowledge base built from your documents. It leverages the power of Large Language Models (LLMs) for both information retrieval and generation.
+## A Completely Free RAG Agent for Building a Chatbot that Converses with Your Documents, Using a Vector Database (AstraDB)
+
+This repository provides a Retrieval-Augmented Generation (RAG) agent that allows you to set up a chatbot that can converse with your documents. This chatbot uses documents uploaded to a vector database to answer questions.  This project utilizes AstraDB due to its ease of use, ability to bypass sanctions, and, most importantly, its free tier.  In fact, this repository offers a solution that is 100% free, requiring no additional costs for servers, databases, tokens, etc.
 # DocuSage: A Retrieval-Augmented Generation (RAG) Agent
 
 ## Overview
@@ -242,7 +245,9 @@ The project consists of a single main file (the Cloudflare Worker code) and a Co
     Once deployed, you can access the web interface through your Cloudflare worker's URL.
 
 ## Setup and Deployment (Persian)
+## یک RAG ایجنت برای راه‌اندازی یک چت‌بات گفتگو با اسناد، بر اساس اسناد بارگذاری شده در یک وکتور دیتابیس (AstraDB) - کاملاً رایگان
 
+این ریپازیتوری یک RAG (Retrieval-Augmented Generation) ایجنت را ارائه می‌دهد که به شما امکان می‌دهد یک چت‌بات گفتگو با اسناد خود را راه‌اندازی کنید. این چت‌بات از اسناد بارگذاری شده در یک پایگاه‌داده برداری (Vector Database) برای پاسخ‌دهی به سوالات استفاده می‌کند. در این پروژه، از AstraDB به دلیل سادگی استفاده، امکان دور زدن تحریم‌ها، و مهم‌تر از همه، رایگان بودن، بهره گرفته شده است. در واقع، این ریپازیتوری روشی را پیشنهاد می‌کند که %100 رایگان است و برای راه‌اندازی آن به هیچ‌گونه هزینه اضافی، از جمله هزینه سرور، دیتابیس، توکن و غیره، نیازی نخواهید داشت.
 1.  **پیش‌نیازها:**
     *   یک حساب کاربری Cloudflare.
     *   یک پروژه Google Cloud Platform (GCP) با API Generative Language فعال شده.
