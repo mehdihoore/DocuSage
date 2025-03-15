@@ -347,12 +347,12 @@ The Colab notebook (`DocuSage_Data_Ingestion.ipynb` - suggested name) provides a
 
 ## Colab Notebook Instructions (Persian)
 
-نوت بوک Colab (`DocuSage_Data_Ingestion.ipynb` - نام پیشنهادی) راهی آسان برای آپلود و پردازش اسناد، تولید تعبیه‌ها (embeddings) و ذخیره آن‌ها در پایگاه داده برداری AstraDB فراهم می‌کند.
+نوت بوک Colab (`DocuSage_Data_Ingestion.ipynb` ) راهی آسان برای آپلود و پردازش اسناد، تولید تعبیه‌ها (embeddings) و ذخیره آن‌ها در پایگاه داده برداری AstraDB فراهم می‌کند.
 
 1.  **باز کردن در Colab:** نوت بوک را در Google Colab باز کنید.
-2.  **تنظیم رازها (Secrets):**
+2.  **تنظیم سکرتها (Secrets):**
     *   روی نماد کلید در نوار کناری سمت چپ (Secrets) کلیک کنید.
-    *   رازهای زیر را اضافه کنید:
+    *   سکرتهای زیر را اضافه کنید:
         *   `PHILO_API`: توکن برنامه AstraDB شما.
         *   `PHILO_END`: نقطه پایانی API AstraDB شما.
         *   `GOOGLE_API_KEY_BHR1`: کلید API Google Gemini شما.
