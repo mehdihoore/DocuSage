@@ -170,8 +170,8 @@ The project consists of a single main file (the Cloudflare Worker code) and a Co
 1.  **Clone the Repository:**
 
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-name>
+    git clone https://github.com/mehdihoore/DocuSage
+    cd DocuSage
     ```
 
 2.  **Install Dependencies:**
@@ -266,8 +266,8 @@ The project consists of a single main file (the Cloudflare Worker code) and a Co
 2.  **کلون کردن مخزن:**
 
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-name>
+    git clone https://github.com/)mehdihoore/DocuSage
+    cd DocuSage
     ```
 
 3.  **نصب وابستگی‌ها:**
